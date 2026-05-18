@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f1e8;
+  color: #1f2a24;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #315c45;
+  color: white;
+  padding: 24px;
+}
+
+main {
+  padding: 40px 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 48px;
+  color: #315c45;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.section {
+  background: white;
+  padding: 24px;
+  margin-top: 24px;
+  border-radius: 12px;
+}
