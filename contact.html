@@ -1,94 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact Grounded Home Solutions</title>
-  <meta name="description" content="Contact Grounded Home Solutions for drainage, crawlspace, basement waterproofing, and moisture concerns in Maryland.">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google tag (gtag.js) -->
+  <title>Contact Grounded Home Solutions</title>
+  <meta name="description" content="Contact Grounded Home Solutions for Maryland waterproofing, crawlspace, sump pump, yard drainage, and moisture concerns.">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZMW0R1TQC"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-4ZMW0R1TQC');
   </script>
 </head>
 
 <body>
 
-<header>
-  <h1>Contact Grounded Home Solutions</h1>
-  <p>Maryland drainage, crawlspace, and waterproofing guidance.</p>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand brand-lockup" href="/">
+      <span class="logo-mark">GHS</span>
+      <span>Grounded Home Solutions</span>
+    </a>
+
+    <nav>
+      <a href="/services/basement-waterproofing.html">Basement Waterproofing</a>
+      <a href="/services/crawlspace-encapsulation.html">Crawlspaces</a>
+      <a href="/services/yard-drainage.html">Yard Drainage</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <main>
 
-  <div class="section">
-    <h2>Request Help</h2>
-    <p>
-      Tell us what issue you’re experiencing and we’ll reach back out.
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Contact Grounded Home Solutions</p>
+    <h1>Tell us what’s going on.</h1>
+
+    <p class="hero-text">
+      Describe the issue you’re seeing with your basement, crawlspace, sump pump, or yard drainage and we’ll reach back out.
     </p>
 
-    <p>
-      <strong>Call or text:</strong><br>
-      <a href="tel:4432809260">(443) 280-9260</a>
-    </p>
+    <div class="hero-buttons">
+      <a class="button" href="tel:4432809260">Call (443) 280-9260</a>
+      <a class="button secondary" href="#contact">Use Form</a>
+    </div>
+
+    <div class="trust-row">
+      <span>Baltimore</span>
+      <span>Harford County</span>
+      <span>Bel Air</span>
+      <span>Nearby Maryland Areas</span>
+    </div>
   </div>
 
-  <div class="section">
-    <h2>Contact Form</h2>
+  <div class="contact-card">
+    <p class="eyebrow">Quick Contact</p>
+    <h3>Request Help</h3>
 
     <form action="https://formspree.io/f/xlgveyzv" method="POST">
+      <div>
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
 
-      <p>
-        <label>
-          Name<br>
-          <input type="text" name="name" required>
-        </label>
-      </p>
+      <div>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
 
-      <p>
-        <label>
-          Email<br>
-          <input type="email" name="email" required>
-        </label>
-      </p>
+      <div>
+        <textarea name="message" placeholder="What's going on?" required style="min-height:100px;"></textarea>
+      </div>
 
-      <p>
-        <label>
-          Phone<br>
-          <input type="tel" name="phone">
-        </label>
-      </p>
+      <button class="button" type="submit">Submit Request</button>
+    </form>
 
-      <p>
-        <label>
-          City<br>
-          <input type="text" name="city">
-        </label>
-      </p>
+    <div class="contact-phone" style="margin-top:18px;">
+      <a href="tel:4432809260">(443) 280-9260</a>
+    </div>
+  </div>
+</section>
 
-      <p>
-        <label>
-          What issue are you dealing with?<br>
-          <textarea name="message" rows="6" required></textarea>
-        </label>
-      </p>
+<section class="contact-section" id="contact">
+  <div class="contact-card">
+    <p class="eyebrow">Request Help</p>
 
-      <button type="submit">Submit Request</button>
+    <h2>Send us the details</h2>
 
+    <p>
+      Tell us what you’re seeing, where you’re located, and whether the issue involves basement water, crawlspace moisture, sump pumps, or yard drainage.
+    </p>
+
+    <div class="contact-phone">
+      <a href="tel:4432809260">(443) 280-9260</a>
+    </div>
+
+    <form action="https://formspree.io/f/xlgveyzv" method="POST">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" required>
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" name="phone">
+      </div>
+
+      <div>
+        <label>City</label>
+        <input type="text" name="city">
+      </div>
+
+      <div>
+        <label>What issue are you experiencing?</label>
+        <textarea name="message" required></textarea>
+      </div>
+
+      <button class="button" type="submit">Submit Request</button>
     </form>
   </div>
-
-  <div class="section">
-    <p>
-      <a href="index.html">Back to Home</a>
-    </p>
-  </div>
+</section>
 
 </main>
+
+<footer>
+  <strong>Grounded Home Solutions</strong>
+  <p>Maryland waterproofing, crawlspace, sump pump, and drainage guidance.</p>
+</footer>
 
 </body>
 </html>
